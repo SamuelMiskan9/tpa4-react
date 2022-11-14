@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  order: 3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  color: white;
+  background-color: rgba(13, 130, 68, 0);
+  order: 1;
+}
+.hero-img {
+  max-width: 25em;
+  height: auto;
+  border-radius: 50px;
+}
+
+.cta {
+  order: 2;
+}
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.nav-links li:hover {
+  color: #0088a9;
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  margin-left: 30px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.content-left {
+  width: 30%;
+  margin-top: -20vh;
+}
+
+.content-left h1 {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  height: 100vh;
+  background-color: #24252a;
+}
+
+main h1 {
+  font-size: 54px;
+  color: #133b4f;
+  text-transform: uppercase;
+}
+
+main h2 {
+  font-size: 25px;
+  color: #fca70c;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+main p {
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: 400;
+  line-height: 31.5px;
+  margin: 30px 0;
+}
+
+.about {
+  height: 100%;
+  text-align: center;
+  padding: 10em;
+  margin-top: auto;
+  background-color: #24252a;
+  margin-top: -20vh;
+}
+
+.about-main {
+  margin: 20vh auto;
+  width: 65em;
+  background-color: #1b2430;
+  color: white;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  padding: 3em;
+  gap: 3em;
+  align-items: center;
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.about-left {
+  width: 70%;
+  font-size: 22px;
+  text-align: left;
+}
+
+.about h1 {
+  color: black;
+  font-size: 54px;
+  text-transform: uppercase;
+  width: 50px;
+  height: 50px;
+}
+
+.about h2 {
+  font-size: 25px;
+  color: red;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  width: 190px;
+  margin-top: 1em;
+}
+
+.about-right img {
+  width: 10em;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: 3em;
+}
+
+.port-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+}
+
+.pro {
+  color: white;
+}
+
+.content-left a {
+  color: rgb(243, 207, 207);
+}
+
+.portfolio {
+  padding: 10em;
+  background-color: #24252a;
+  margin-top: -20vh;
+}
+
+.portfolio h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+  color: red;
+}
+
+.portfolio h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.projects {
+  width: 20em;
+  background-color: #1b2430;
+  color: white;
+  border-radius: 1em;
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  outline: 2px solid white;
+  height: 100%;
+}
+
+.projects:hover {
+  outline: 3px solid #083d77;
+  transition: 0.4s;
+}
+
+.img-projects {
+  width: 20em;
+  height: auto;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.desc {
+  padding: 2em;
+  height: 40vh;
+}
+
+.desc a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  background-color: tomato;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.desc a:hover {
+  background-color: red;
+  transition: 0.5s;
+  color: white;
+}
+
+.contact-main {
+  margin: 20vh auto;
+  width: 65em;
+  background-color: #112d51;
+  color: white;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  padding: 3em;
+  gap: 3em;
+  align-items: center;
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+}
+
+.contact-logo {
+  width: 6em;
+  height: auto;
+}
+
+.contact-logo:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.contact {
+  padding: 10em;
+  color: black;
+  height: 100%;
+  background-color: #24252a;
+  margin-top: -20vh;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.contact h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+  color: red;
+}
+
+.btn-rick {
+  background-color: #6b77cc;
+  color: rgb(224, 206, 206);
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+
+  text-align: left;
+}
+
+.blog h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.blog {
+  padding: 10em;
+  color: red;
+  margin-top: -20vh;
+  background-color: #24252a;
+  height: 100%;
+}
+
+.blog {
+  padding: 10em;
+}
+
+.blog-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+}
+
+.blog-style {
+  width: 20em;
+  background-color: #1b2430;
+  color: white;
+  border-radius: 1em;
+  box-shadow: 11px 13px 24px 7px rgba(19, 19, 150, 0.75);
+  -webkit-box-shadow: 11px 13px 24px 7px rgba(19, 19, 150, 0.75);
+  -moz-box-shadow: 11px 13px 24px 7px rgba(19, 19, 150, 0.75);
+  outline: 2px solid white;
+}
+
+.blog-style:hover {
+  outline: 3px solid #fcab10;
+  transition: 0.4s;
+}
